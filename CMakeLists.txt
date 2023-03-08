@@ -10,7 +10,7 @@ set(EXTENSION_CONTRIBUTORS "Andras Lasso (PerkLab (Queen's University))")
 set(EXTENSION_DESCRIPTION "This extension provides ACPC coordinate transformation tool and installs extensions commonly needed for neuroimaging.")
 set(EXTENSION_ICONURL "https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/SlicerNeuro.png")
 set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/Docs/module_acpctransform_1.png")
-set(EXTENSION_DEPENDS "UKFTractography SwissSkullStripper SlicerFreeSurfer SlicerDcm2nii SlicerDMRI HDBrainExtraction")
+set(EXTENSION_DEPENDS "UKFTractography SwissSkullStripper SlicerFreeSurfer SlicerDcm2nii SlicerDMRI HDBrainExtraction SlicerWMA")
 
 #-----------------------------------------------------------------------------
 # Extension dependencies
