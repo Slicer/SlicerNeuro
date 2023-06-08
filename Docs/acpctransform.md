@@ -37,11 +37,17 @@
 
 ## Panels and their use
 
-### Input landmarks: Anatomical landmarks that will be used for computing the ACPC transform.
+### Input landmarks
+
+Anatomical landmarks that will be used for computing the ACPC transform.
+
 - **ACPC line** (*ACPC*): ACPC line, connecting a point at the anterior commissure with a point at the posterior commissure.
 - **Midline** (*Midline*): The midline is a series of points (at least 3) placed on the mid sagittal plane, defining the division between the hemispheres of the brain.
 
-### Output transform: Computed transformation (rigid translation and rotation) that the module computes from the input landmarks. If this transformation is applied to the volume then it will make the ACPC line "horizontal" (be in AP axis of the patient coordinate system), line up the mid sagittal plane "vertical" (fit on the AS plane of the patient coordinate system), and (if centering is enabled) then make the AC point the origin (the (0,0,0) coordinate in the patient coordinate system).
+### Output transform
+
+Computed transformation (rigid translation and rotation) that the module computes from the input landmarks. If this transformation is applied to the volume then it will make the ACPC line "horizontal" (be in AP axis of the patient coordinate system), line up the mid sagittal plane "vertical" (fit on the AS plane of the patient coordinate system), and (if centering is enabled) then make the AC point the origin (the (0,0,0) coordinate in the patient coordinate system).
+
 - **Center volume** (*centerVolume*): If this option is enabled then the output transform will translate the AC point to the origin. If this option is disabled then the position of the volume will be preserved and transform will only change the orientation.
 - **Output transform** (*OutputTransform*): Transform that moves the volume to standard ACPC coordinate system.
 
