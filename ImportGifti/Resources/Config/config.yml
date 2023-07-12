@@ -1,0 +1,43 @@
+# config.yml file
+# Path or Null
+bids_dir: Null
+
+pybids_inputs:
+  # Hippunfold hippocampus surfaces
+  hipp_surf:
+    # Filters to look for surf files
+    pybids_filters:
+      extension: '.surf.gii'
+      space: 'T1w'
+      suffix: ['inner','midthickness','outer']
+    # Scalars to attach to the surf
+    scalars:
+      labels:
+        pybids_filters:
+          extension: '.label.gii'
+        match_entities: ['label', 'hemi']
+        colortable: 'Resources/Data/desc-subfields_atlas-bigbrain_dseg.tsv'
+      shapes:
+        pybids_filters:
+          extension: '.shape.gii'
+        match_entities: ['label', 'hemi']
+  # Hippunfold segmentations
+  dseg:
+    pybids_filters:
+      extension: '.nii.gz'
+      suffix: 'dseg'
+      datatype: 'anat'
+    colortable: 'Resources/Data/desc-subfields_atlas-bigbrain_dseg.tsv'
+    show_unknown: False
+  #fmriprep surfaces
+  # surf2:
+  #   pybids_filters:
+  #     extension: '.surf.gii'
+  #     datatype: 'anat'
+  # freesurfer segmentations
+  # dseg2:
+  #   pybids_filters:
+  #     extension: '.nii.gz'
+  #     suffix: 'dseg'
+  #   colortable: './Resources/Data/freesurfer_labels.tsv'
+  #   show_unknown: False
