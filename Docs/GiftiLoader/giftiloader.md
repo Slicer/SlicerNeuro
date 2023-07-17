@@ -83,3 +83,7 @@ Some important details to keep in mind:
 ## Contributors
 
 Mauricio Cespedes (Western University), Greydon Gilmore (Western University).
+
+## Acknowledgements
+
+This work was supported by Canada Foundation for Innovation (CFI) John R. Evans Leaders Fund project #37427, Canada Research Chairs 950-231964, Canada First Research Excellence Fund and a Brain Canada Platform Support Grant.
