@@ -5,7 +5,7 @@ Extension for 3D Slicer than installs tools commonly needed for neuroimaging, be
 # Modules
 
 - [ACPC Transform](Docs/ACPCTransform/acpctransform.md): Calculate a transformation that aligns brain images to [Talairach coordinate system](https://en.wikipedia.org/wiki/Talairach_coordinates) (also known as stereotaxic or ACPC coordinate system) based on anatomical landmarks.
-- [GiftiLoader](Docs/GiftiLoader/giftiloader.md): Loads gifti files from a [BIDS](https://bids.neuroimaging.io/) directory to 3D Slicer and saves them as vtk files in a specified output folder. These files can be reloaded to 3D Slicer.
+- [ImportGifti](Docs/GiftiLoader/importgifti.md): Loads gifti files from a [BIDS](https://bids.neuroimaging.io/) directory to 3D Slicer and saves them as vtk files in a specified output folder. These files can be reloaded to 3D Slicer.
 
 # Extensions
 
