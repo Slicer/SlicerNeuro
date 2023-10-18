@@ -1,0 +1,9 @@
+index	name	abbreviation	r	g	b
+1	subiculum	Sub	255	0	0
+2	CA1	CA1	0	255	0
+3	CA2	CA2	0	0	255
+4	CA3	CA3	255	255	0
+5	CA4	CA4	0	255	255
+6	dentate gyrus	DG	255	0	255
+7	SRLM or 'dark band'	SRLM	255	239	213
+8	cysts	Cyst	240	86	224
